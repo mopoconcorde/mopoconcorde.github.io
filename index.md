@@ -47,11 +47,11 @@
 | 基础 | | non-terminal :arrow_right: production rule:arrow_right: terminal | |
 | 一维 | 隐马尔可夫(HMM)| derivation path :arrow_right: parsing :arrow_right: sequence | Gene finder，Pfam |
 | 二维 | 随机上下文无关(SCFG)| derivation path :arrow_right: parsing :arrow_right: secondary structure | Rfam |
-| 三维 | Transformer | | AlphaFold |
+| 三维 | Transformer |  | AlphaFold |
 | 高维 | | | AI Vitual Cell |
 
 ---
 
 **底部导航栏：**
 
-- 施工中……
+- :construction_worker:施工中……
