@@ -63,7 +63,7 @@
 2. generate score  
    构建score function。:question:PAM250矩阵为什么不对称  
 3. allow gap  
-   计算gap权重的函数：W~n~ =a + (n-1) b。对权重的赋值是一种超参，即用背景知识设计的参数  
+   计算gap权重的函数：W<sub>n</sub> =a + (n-1) b。对权重的赋值是一种超参，即用背景知识设计的参数  
 4. score reflect  
 5. alignment global or local  
    Needleman-Wunsch algorithm	全局最优  
