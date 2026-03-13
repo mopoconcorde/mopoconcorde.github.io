@@ -59,28 +59,28 @@
 
 ### :notebook:生物信息学笔记
 
-1. choose seq 
-2. generate score 
-   构建score function。:question:PAM250矩阵为什么不对称 
-3. allow gap 
-   计算gap权重的函数：W~n~ =a + (n-1) b。对权重的赋值是一种超参，即用背景知识设计的参数 
-4. score reflect 
-5. alignment global or local 
+1. choose seq  
+2. generate score  
+   构建score function。:question:PAM250矩阵为什么不对称  
+3. allow gap  
+   计算gap权重的函数：W~n~ =a + (n-1) b。对权重的赋值是一种超参，即用背景知识设计的参数  
+4. score reflect  
+5. alignment global or local  
    Needleman-Wunsch algorithm	全局最优  
-   Smith-Waterman algorithm		局部最优 
-6. estimate probability 
-   计算速度太慢，需要启发式算法(heuristic): local match, precompute look-up table (hash table), posistion of every possible tuple
-7. occured by chance 
+   Smith-Waterman algorithm		局部最优  
+6. estimate probability  
+   计算速度太慢，需要启发式算法(heuristic): local match, precompute look-up table (hash table), posistion of every possible tuple  
+7. occured by chance   
    BLAST中衡量概率的参数：  
-   expect value = : 和随机相比概率值，越小越好，correction of the p-value multiple testing 
-   p-value = : probabilitty that an event occurs by change 
+   expect value = : 和随机相比概率值，越小越好，correction of the p-value multiple testing  
+   p-value = : probabilitty that an event occurs by change  
 
 名词解释：
-identity相同，similar相似 
-sequence alignment: 
-	homolog(同源：所有血红蛋白家族) 
-	ortholog(直接同源：鼠，鸡的α球蛋白) 
-	paralog(旁系同源：鼠的α，β球蛋白) 
+identity相同，similar相似  
+sequence alignment:  
+	homolog(同源：所有血红蛋白家族)  
+	ortholog(直接同源：鼠，鸡的α球蛋白)  
+	paralog(旁系同源：鼠的α，β球蛋白)  
 RefSeq: NCBI reference sequence，一个基因注释数据库 
 
 ---
