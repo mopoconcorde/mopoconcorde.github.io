@@ -78,9 +78,9 @@
 名词解释：
 identity相同，similar相似  
 sequence alignment:  
-	homolog(同源：所有血红蛋白家族)  
-	ortholog(直接同源：鼠，鸡的α球蛋白)  
-	paralog(旁系同源：鼠的α，β球蛋白)  
+　　homolog(同源：所有血红蛋白家族)  
+　　ortholog(直接同源：鼠，鸡的α球蛋白)  
+　　paralog(旁系同源：鼠的α，β球蛋白)  
 RefSeq: NCBI reference sequence，一个基因注释数据库 
 
 ---
