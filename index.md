@@ -1,12 +1,15 @@
 # 我的主页
+
 欢迎来到我的 GitHub Pages 站点
 
 ---
 
 ## :calendar: 2026年3月4日
+
 :newspaper: 第一次创建网页，我的第一张互联网大字报！
 
 ### :notebook: 生物信息学学习笔记
+
 算法和模型的区别
 
 | 概念 | 算法 | 模型 |  
@@ -38,7 +41,7 @@
     - 作业6：利用最新的 AI 工具，例如OpenClaw、OpenCode 等，构建一个 AI Agent for Biomedicine based on field-specific domain knowledge。
 
 - 前沿进展：
-  - alpha-genomics Omics 做基因组的 output
+  - alpha-genomics Omics 用于基因组 output
 
 - 课程内容：
 
@@ -49,6 +52,31 @@
 | 二维 | 随机上下文无关(SCFG)| derivation path :arrow_right: parsing :arrow_right: secondary structure | Rfam |
 | 三维 | Transformer |  | AlphaFold |
 | 高维 | | | AI Vitual Cell |
+
+---
+
+## :calendar:2026年3月13日
+
+### :notebook:生物信息学笔记
+
+1. choose seq
+2. generate score				score function					PAM250矩阵为什么不对称
+3. allow gap					W_n =a + (n-1) b				超参，用背景知识设计的参数
+4. score reflect					Needleman-Wunsch algorithm	全局最优
+5. alignment global or local		Smith-Waterman algorithm		局部最优							
+6. estimate probability			R-W	 S-W 计算速度太慢，heuristic  alternative
+7. occured by chance			local match, precompute look-up table (hash table), posistion of every possible tuple
+BLAST
+expect value = : 和随机相比概率值，越小越好，correction of the p-value multiple testing 
+p-value = : probabilitty that an event occurs by change
+
+identity相同，similar相似
+sequence alignment: homolog(同源：所有血红蛋白家族)，ortholog(直接同源：鼠，鸡的α球蛋白)，paralog(旁系同源：鼠的α，β球蛋白)
+RefSeq: NCBI reference sequence
+
+
+
+
 
 ---
 
