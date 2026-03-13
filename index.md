@@ -75,9 +75,9 @@
    expect value = : 和随机相比概率值，越小越好，correction of the p-value multiple testing  
    p-value = : probabilitty that an event occurs by change  
 
-名词解释：
+名词解释：  
 identity相同，similar相似  
-sequence alignment:  
+sequence alignment：  
 　　homolog(同源：所有血红蛋白家族)  
 　　ortholog(直接同源：鼠，鸡的α球蛋白)  
 　　paralog(旁系同源：鼠的α，β球蛋白)  
